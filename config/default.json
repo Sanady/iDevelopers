@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://ivan22:ivan123451997@maindb-ww5vk.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://ivan22:ivan123451997@maindb-ww5vk.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "ivan3214"
 }
