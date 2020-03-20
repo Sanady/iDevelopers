@@ -24,26 +24,6 @@ const Register = ({ setAlert, register }) => {
         }
         else{
             register({ name, email, password });
-            /*const newUser = {  //Vytvorime si vlastne premennu ktora nam ma reprezentovat data v DB, a potom vlastne iba pomocou nej zapiseme to do databazy
-                name,
-                email,
-                password
-            };
-
-            try {
-                const config = {
-                    headers: {
-                        'Content-Type': 'application/json' // pomocou tohto vlastne konvertujeme nase info do json ktory zapiseme do DB
-                    }
-                }
-
-                const body = JSON.stringify(newUser);
-
-                const res = await axios.post('/api/users', body, config); // pomocou tejto funkcie vlastne urobime access do users cize do backendu a zapiseme body cize name, pass a email do DB.
-                console.log(res.data); 
-            } catch (err) {
-                console.error(err.message);
-            }*/
         }
     }
 
