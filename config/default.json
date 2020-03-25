@@ -1,7 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://ivan22:ivan123451997@maindb-ww5vk.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "ivan3214",
-    "githubClientId": "7a53353f7f846fb703ae",
-    "githubSecret": "53809535662729a9c5211bc6d083d9f37fe35147",
-    "githubToken": "62489d1dd381ee4c94e56aec186d24ce25fffba1"
-}
